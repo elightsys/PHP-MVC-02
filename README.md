@@ -19,7 +19,7 @@
 - Server-side / SSP
 
 ### Live Demo
-- Coming soon!
+- https://elightsys.great-site.net/github/mvc_02/
 
 ### More details
 
