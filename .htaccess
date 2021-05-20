@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>	
+	RewriteEngine On
+	
+	# SSL
+	RewriteCond %{HTTPS} off
+	RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+	
+	# NO WWW
+	RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
+    RewriteRule ^ https://%1%{REQUEST_URI} [R=301,L]
+	
+	# REDIRECTION PATH
+	Options -Multiviews
+	RewriteRule ^$ public/ [L]
+	RewriteRule (.*) public/$1 [L]
+</IfModule>

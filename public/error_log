@@ -1,0 +1,39 @@
+[25-Nov-2020 08:34:33 America/Chicago] PHP Notice:  Undefined property: Home::$page in /home3/elightsys/public_html/_github/mvc_01/app/controllers/Home.php on line 12
+[25-Nov-2020 08:35:59 America/Chicago] PHP Notice:  Undefined property: Home::$page in /home3/elightsys/public_html/_github/mvc_01/app/controllers/Home.php on line 12
+[25-Nov-2020 08:36:45 America/Chicago] PHP Parse error:  syntax error, unexpected ''index'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home3/elightsys/public_html/_github/mvc_01/app/controllers/Home.php on line 12
+[25-Nov-2020 08:56:45 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Pages::index() in /home3/elightsys/public_html/_github/mvc_01/app/libraries/Bootstrap.php:31
+Stack trace:
+#0 /home3/elightsys/public_html/_github/mvc_01/app/autoload.php(16): Bootstrap->__construct()
+#1 /home3/elightsys/public_html/_github/mvc_01/public/index.php(14): require_once('/home3/elightsy...')
+#2 {main}
+  thrown in /home3/elightsys/public_html/_github/mvc_01/app/libraries/Bootstrap.php on line 31
+[25-Nov-2020 09:03:52 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Pages::index() in /home3/elightsys/public_html/_github/mvc_01/app/libraries/Bootstrap.php:31
+Stack trace:
+#0 /home3/elightsys/public_html/_github/mvc_01/app/autoload.php(16): Bootstrap->__construct()
+#1 /home3/elightsys/public_html/_github/mvc_01/public/index.php(14): require_once('/home3/elightsy...')
+#2 {main}
+  thrown in /home3/elightsys/public_html/_github/mvc_01/app/libraries/Bootstrap.php on line 31
+[25-Nov-2020 09:05:40 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Pages::index() in /home3/elightsys/public_html/_github/mvc_01/app/libraries/Bootstrap.php:31
+Stack trace:
+#0 /home3/elightsys/public_html/_github/mvc_01/app/autoload.php(16): Bootstrap->__construct()
+#1 /home3/elightsys/public_html/_github/mvc_01/public/index.php(14): require_once('/home3/elightsy...')
+#2 {main}
+  thrown in /home3/elightsys/public_html/_github/mvc_01/app/libraries/Bootstrap.php on line 31
+[27-Nov-2020 08:32:11 America/Chicago] PHP Warning:  require_once(/home3/elightsys/public_html/_github/mvc_01/app/views/_inc/scripts.php): failed to open stream: No such file or directory in /home3/elightsys/public_html/_github/mvc_01/app/views/index.php on line 46
+[27-Nov-2020 08:32:11 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home3/elightsys/public_html/_github/mvc_01/app/views/_inc/scripts.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home3/elightsys/public_html/_github/mvc_01/app/views/index.php on line 46
+[27-Nov-2020 09:14:33 America/Chicago] PHP Parse error:  syntax error, unexpected ''page'' (T_CONSTANT_ENCAPSED_STRING), expecting ']' in /home3/elightsys/public_html/_github/mvc_01/app/controllers/Error404.php on line 9
+[27-Nov-2020 09:17:05 America/Chicago] PHP Notice:  Undefined index: message in /home3/elightsys/public_html/_github/mvc_01/app/views/error/index.php on line 17
+[18-May-2021 08:44:59 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Pages::model() in /home3/elightsys/public_html/_github/mvc_02/app/controllers/Pages.php:8
+Stack trace:
+#0 /home3/elightsys/public_html/_github/mvc_02/app/libraries/Bootstrap.php(20): Pages->__construct()
+#1 /home3/elightsys/public_html/_github/mvc_02/app/autoload.php(16): Bootstrap->__construct()
+#2 /home3/elightsys/public_html/_github/mvc_02/public/index.php(14): require_once('/home3/elightsy...')
+#3 {main}
+  thrown in /home3/elightsys/public_html/_github/mvc_02/app/controllers/Pages.php on line 8
+[18-May-2021 09:31:20 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined method Pages::model() in /home3/elightsys/public_html/_github/mvc_02/app/controllers/Pages.php:8
+Stack trace:
+#0 /home3/elightsys/public_html/_github/mvc_02/app/libraries/Bootstrap.php(20): Pages->__construct()
+#1 /home3/elightsys/public_html/_github/mvc_02/app/autoload.php(16): Bootstrap->__construct()
+#2 /home3/elightsys/public_html/_github/mvc_02/public/index.php(14): require_once('/home3/elightsy...')
+#3 {main}
+  thrown in /home3/elightsys/public_html/_github/mvc_02/app/controllers/Pages.php on line 8
