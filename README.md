@@ -1,37 +1,56 @@
-# Welcome to the PHP MVC framework (steps 02) / Datatables with server-side (SSP)
+# Welcome to the PHP MVC Framework (Step 02) / Datatables with Server-Side (SSP)
 
-### About this project
- This project introduce step-by-step building an own PHP MVC framework.
- That is an extremely simple and easy to understand MVC skeleton application. It's free and open-source.
- The tutorial is divided into some different parts in order to achieve a fully functional PHP CRUD application based  on Model-View-Controller archipattern.
+## About This Project
+This project provides a step-by-step guide to building a custom PHP MVC framework, focusing on integrating DataTables with server-side processing (SSP). It serves as an easy-to-understand MVC skeleton application, designed to teach the basics of the Model-View-Controller (MVC) architecture. The project is free, open-source, and ideal for developers looking to implement dynamic, database-driven tables in their applications.
 
-### Goals of this project
- Teach people the basics of the Model-View-Controller architecture.
+## Goals of This Project
+- Teach developers the fundamentals of the MVC architecture.
+- Demonstrate how to integrate DataTables with server-side processing for large-scale datasets.
+- Provide a lightweight, customizable framework for PHP developers.
 
-### Technologies used
+## Recent Updates
+### Compatibility with PHP 8.2
+The framework has been updated to ensure compatibility with PHP 8.2, incorporating:
+- Refactored core files (e.g., `Database.php`, `Bootstrap.php`, and `Pages.php`) for adherence to modern PHP practices.
+- Improved error handling and streamlined code execution.
+- Enhanced model integration for better scalability and maintainability.
 
-- PHP7
-- jQuery
-- Bootsrap4
+### New Features
+- **DataTables Integration:**
+  - Bootstrap 4 styling for responsive and modern UI.
+  - File export functionality using DataTables Buttons extension (CSV, Excel, PDF, and print options).
+- **Server-Side Processing (SSP):**
+  - Efficient handling of large datasets with server-side paging, searching, and ordering.
+  - Optimized for SQL-based data retrieval, ensuring fast performance even with extensive databases.
 
-- DataTables Bootstrap 4 files
-- DataTables File export
-- Server-side / SSP
+## Technologies Used
+- **PHP 8.2**: Backend logic and MVC structure.
+- **jQuery**: Simplifies DOM manipulation and Ajax calls.
+- **Bootstrap 4**: Provides responsive and modern UI design.
+- **DataTables**: Advanced table features, including sorting, searching, and pagination.
+- **Buttons Extension for DataTables**: Enables file export functionality.
 
-### Live Demo
-- https://elightsys.great-site.net/github/mvc_02/
+## Live Demo
+Explore the live demo of the project:  
+[Live Demo](https://mvc.mehet.hu/github/mvc_02/)
 
-### More details
+## More Details
+### DataTables Bootstrap 4 Integration
+This integration is achieved by including the DataTables Bootstrap 4 files (CSS and JS), which set the necessary defaults for initializing DataTables seamlessly.
 
-#### DataTables Bootstrap 4
-This integration is done simply by including the DataTables Bootstrap 4 files (CSS and JS) which sets the defaults needed for DataTables to be initialised as normal
+### DataTables File Export
+Exporting data from a table is often a key feature of complex applications. The Buttons extension for DataTables supports exporting data to multiple formats, including:
+- CSV
+- Excel
+- PDF
+- Print
 
-#### DataTables File export
-Exporting data from a table can often be a key part of a complex application. The Buttons extension for DataTables provides three plug-ins that provide overlapping functionality for data export
+### Server-Side Processing (SSP)
+For applications working with large datasets, server-side processing allows DataTables to:
+- Delegate paging, searching, and ordering actions to the server.
+- Leverage SQL engines for efficient data management.
+- Perform Ajax requests for each table draw, ensuring real-time updates.
 
-#### Server-side processing / SSP
-There are many ways to get your data into DataTables, and if you are working with seriously large databases, you might want to consider using the server-side options that DataTables provides. With server-side processing enabled, all paging, searching, ordering actions that DataTables performs are handed off to a server where an SQL engine (or similar) can perform these actions on the large data set (after all, that's what the database engine is designed for!). As such, each draw of the table will result in a new Ajax request being made to get the required data.
+## License
+This project is licensed under the **MIT License**, allowing free usage and modification for personal or commercial purposes.
 
-License
-----
-This project is licensed under the MIT License. This means you can use and modify it for free in private or commercial projects.
